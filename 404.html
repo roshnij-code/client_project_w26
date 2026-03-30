@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>404 - Page Not Found</title>
+</head>
+<body>
+ 
+    <header class="header">
+        <a href="#main-content" class="skip-link">Skip to Main Content</a>
+        <div class="logo-title">
+          <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+          <div class="logo-text">
+            <span class="school-name">School of Information</span>
+            <span class="university-name">University of Michigan</span>
+          </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resumes</a></li>
+                <li><a href="networking.html">Networking & Connections</a></li>
+                <li><a href="internship.html">Job & Internship Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="error404" id="main-content">
+        <div class="error404">
+            <h1>404</h1>
+            <h2>Oops! Page Not Found</h2>
+            <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            <img src="images/mumsi.jpeg" alt="Gemini created image of UMSI Mumsi shrugging" class="error-image">
+            <div class="button-container">
+                <a href="index.html" class="back-to-home-button">Return to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>UMSI Career Development</h3>
+            <p>Supporting students in career exploration, preparation, and success.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resumes</a></li>
+                <li><a href="networking.html">Networking </a></li>
+                <li><a href="internship.html">Job & Internship Search</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: umsi.academicsuccess@umich.edu</p>
+            <p>Location: School of Information
+              University of Michigan
+              2200 Hayward Street
+              Ann Arbor, MI 48109</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Connect</h3>
+            <ul>
+                <li><a href="linkedin.com/school/university-of-michigan---school-of-information/">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/umschoolofinformation">Instagram</a></li>
+                <li><a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="year"></span> University of Michigan School of Information</p>
+    </div>
+
+    </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>
